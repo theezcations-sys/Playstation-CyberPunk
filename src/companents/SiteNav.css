@@ -1,0 +1,81 @@
+.site_nav {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    padding: 30px 0;
+}
+
+.nav_list {
+    display: flex;
+    color: white;
+    font-size: 1.1rem;
+    gap: 50px;
+}
+
+.nav_list li:hover {
+    color: #ff5bdc;
+    text-shadow: 0 0 8px rgba(255, 91, 220, 0.9),
+        0 0 16px rgba(255, 43, 214, 0.55);
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+.nav_list li:hover::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 2px;
+    background-color: #ff5bdc;
+    margin-top: 5px;
+    animation: underline 0.5s ease forwards;
+}
+
+input{
+    background-color: transparent;
+    font-size: 1.1rem;
+    border-radius: 30px;
+    border: 1px solid #11182A;
+    padding: 10px 15px;
+    transform: translateY(-10px) translateX(20px);
+    width: 200px;
+    padding-right: 40px;
+}
+
+.bx-search{
+    transform: translateX(-20px) translateY(5px);
+    font-size: 1.2rem;
+}
+
+.bx-bell{
+    font-size: 1.3rem;
+    transform: translateX(20px);
+    cursor: pointer;
+    transition: all .5s ease;
+}
+
+.bx-bell:hover{
+    color: #ff5bdc;
+    text-shadow: 0 0 8px rgba(255, 91, 220, 0.9),
+        0 0 16px rgba(255, 43, 214, 0.55);
+}
+
+
+.profile-img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    transform: translateX(35px) translateY(-10px);
+}
+
+.bx-chevron-down{
+    font-size: 2.2rem;
+    transform: translateX(30px) translateY(-8px);
+    cursor: pointer;
+    transition: all .5s ease;
+}
+
+.bx-chevron-down:hover{
+    color: #ff5bdc;
+    text-shadow: 0 0 8px rgba(255, 91, 220, 0.9),
+        0 0 16px rgba(255, 43, 214, 0.55);
+}

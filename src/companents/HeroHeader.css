@@ -1,0 +1,142 @@
+.hero_bg {
+    width: 82%;
+    height: 53%;
+    position: absolute;
+    right: 0;
+    z-index: 0;
+}
+
+.cyberpunk_img {
+    width: 400px;
+    position: absolute;
+    left: 270px;
+    top: 220px;
+    z-index: 1;
+    transform: translateX(50px) translateY(-50px);
+}
+
+.n_lvl {
+    position: relative;
+    z-index: 2;
+    width: 150px;
+    font-size: .7rem;
+    color: #14f1ff;
+    text-shadow: 0 0 8px #14f1ff8c;
+    text-align: center;
+    border: 1px solid #14efff58;
+    padding: 5px;
+    border-radius: 5px;
+    left: 200px;
+    top: 50px;
+    cursor: pointer;
+}
+
+.title i {
+    position: relative;
+    z-index: 2;
+    font-weight: 100;
+    color: #14f1ff;
+    text-shadow: 0 0 8px #00eeff8c;
+    top: 120px;
+    left: 210px;
+    letter-spacing: 1.5vh;
+}
+
+.subtle {
+    position: absolute;
+    z-index: 2;
+    color: #ccc;
+    width: 320px;
+    font-size: 1.2rem;
+    bottom: 340px;
+    left: 360px;
+}
+
+.explore_now {
+    position: absolute;
+    z-index: 2;
+    left: 354px;
+    top: 400px;
+    color: #ff2bd6;
+    border: 1px solid #ff2bd6;
+    box-shadow:
+        0 0 12px #ff2bd659,
+        inset 0 0 14px #ff2bd614;
+    cursor: pointer;
+    background: transparent;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: all .5s ease;
+}
+
+.explore_now span {
+    font-size: 1.1rem;
+    margin-left: 10px;
+    color: #ff2bd6;
+    text-shadow: 0 0 8px #ff5bdce6,
+        0 0 16px #ff2bd68c;
+}
+
+.explore_now i {
+    font-size: 1.5rem;
+    margin-left: 10px;
+    color: #ff2bd6;
+    text-shadow: 0 0 8px #ff5bdce6,
+        0 0 16px #ff2bd68c;
+}
+
+.explore_now:hover {
+    background: #ff2bd612;
+    border: 1px solid #ff2bd6;
+    box-shadow:
+        0 0 12px #ff2bd659,
+        inset 0 0 14px #ff2bd614;
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+.scroll_x{
+    position: absolute;
+    z-index: 2;
+    bottom: 270px;
+    right: 1%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 20px;
+}
+
+.arrow-line {
+    width: 40px;
+    height: 40px;
+    border: 1px solid #14f1ff58;
+    color: #14f1ff;
+    text-shadow: 0 0 8px #14f1ff8c;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    background: transparent;
+    transition: all .3s ease;
+    border-radius: 50%;
+}
+
+.arrow-line:hover {
+    background: #14f1ff12;
+    border: 1px solid #14f1ff58;
+    transform: scale(1.1);
+}
+
+.arrow-line i {
+    font-size: 1.5rem;
+    color: #14f1ff;
+    text-shadow: 0 0 8px #14f1ff8c;
+}
+
+.arrow-line:hover i {
+    color: #ff2bd6;
+    text-shadow: 0 0 8px #ff2bd68c,
+        0 0 16px #ff2bd68c;
+}

@@ -1,0 +1,21 @@
+:root {
+    --title-color: #333;
+    --bg: #000000;
+    --text-color: #ffffff;
+}
+body.dark :root {
+    --title-color: #ccc;
+    --bg: #000000;
+    --text-color: #ffffff;
+}
+
+
+body{
+    background-color: var(--);
+}
+
+.site_bar{
+    display: grid;
+    align-items: center;
+    gap: 20px;
+}

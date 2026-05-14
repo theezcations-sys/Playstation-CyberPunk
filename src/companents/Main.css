@@ -1,0 +1,45 @@
+.main_div {
+    display: flex;
+    align-items: center;
+    gap: 31px;
+}
+
+.featured {
+    width: 100%;
+    position: relative;
+    z-index: 1;
+    top: 330px;
+    left: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.featured span {
+    color: #14f1ff;
+    text-shadow: 0 0 8px #14f1ff8c;
+    display: flex;
+    align-items: center;
+
+}
+
+.featured span:nth-child(2):hover,
+.featured span:nth-child(2):hover i {
+    color: #ff2bd6;
+    cursor: pointer;
+}
+
+.main_div img {
+    width: 209px;
+    height: 250px;
+    position: relative;
+    z-index: 2;
+    top: 320px;
+    left: 150px;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+.main_div img:hover {
+    transform: scale(1.1);
+}
