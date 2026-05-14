@@ -1,5 +1,4 @@
 import'../App.css'
-import HeroHeader from './HeroHeader'
 import './Main.css'
 
 import lyberPunk from '../assis/lyberPunk.png'
@@ -12,7 +11,7 @@ function Main() {
     return (
         <main>
             <section className='main_section'>
-                <p className='featured'><span>// FEATURED GAMES ////</span> <span>View all <i class='bx bx-chevron-right'></i></span></p>
+                <p className='featured'><span>FEATURED GAMES</span> <span>View all <i class='bx bx-chevron-right'></i></span></p>
                 <div className="main_div">
                     <img src={lyberPunk} alt="" />
                     <img src={ghost} alt="" />
