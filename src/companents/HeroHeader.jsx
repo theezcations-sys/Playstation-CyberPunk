@@ -6,8 +6,8 @@ import cyberpunk from '../assis/cyberpunk.png'
 function HeroHeader() {
     return (
         <section className='hero_header'>
-            <img src={logo} alt="image" className='hero_bg' />
-            <img src={cyberpunk} alt="image" className='cyberpunk_img' />
+            <img src={logo} alt="" className='hero_bg' />
+            <img src={cyberpunk} alt="" className='cyberpunk_img' />
             <p className="n_lvl">NEXT LEVEL GAMING</p>
             <h1 className='title'><i>PLAYSTATION</i></h1>
             <p className="subtle">Step into the fuure of gaming with PlaySattion . No limits. All immersion</p>

@@ -14,11 +14,11 @@ function Main() {
             <section className='main_section'>
                 <p className='featured'><span>// FEATURED GAMES ////</span> <span>View all <i class='bx bx-chevron-right'></i></span></p>
                 <div className="main_div">
-                    <img src={lyberPunk} alt="image" />
-                    <img src={ghost} alt="image" />
-                    <img src={horizon} alt="image" />
-                    <img src={spiderman} alt="image" />
-                    <img src={theLast} alt="image" />
+                    <img src={lyberPunk} alt="" />
+                    <img src={ghost} alt="" />
+                    <img src={horizon} alt="" />
+                    <img src={spiderman} alt="" />
+                    <img src={theLast} alt="" />
                 </div>
             </section>
         </main>
